@@ -10,4 +10,8 @@ class FlamesTest < Test::Unit::TestCase
     assert_equal [], Flame.all
   end
 
+  def test_flames_compute
+    assert_equal "Ancestors", Flames.compute("satyaram", "soujanya")
+  end
+
 end
