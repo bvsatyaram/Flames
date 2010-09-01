@@ -55,7 +55,13 @@ class Flames
     return flames_score
   end
 
+  def self.clean_name(name)
+    return name.downcase.gsub(/( |\.)/, "")
+  end
+
   def self.compute_relation_code(name1, name2)
+    name1 = clean_name(name1)
+    name2 = clean_name(name2)
     chars1 = name1.split("")
     chars2 = name2.split("")
 
