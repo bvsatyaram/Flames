@@ -5,7 +5,7 @@
 ################################################################################
 class Flames
   FLAMES_STRING = "FLAMES"
-  RELATIONS = ["Friends", "Lovers", "Ancestors", "Married", "Enemies", "Sisters"]
+  RELATIONS = ["Friendship", "Love", "Affair", "Marriage", "Enmity", "Sisterhood"]
 
   def self.compute(name1, name2)
     compute_flames(name1, name2)
@@ -56,7 +56,7 @@ class Flames
   end
 
   def self.clean_name(name)
-    return name.downcase.gsub(/( |\.)/, "")
+    return name.downcase.gsub(/( |\.,)/, "")
   end
 
   def self.compute_relation_code(name1, name2)

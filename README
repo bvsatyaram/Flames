@@ -1,13 +1,26 @@
 Flames
-======
+=======
+Do you have a secret crush??
+Want to know the scope of a crush love or a serious relationship??
+The Flames Test is the right tool for you.
+Flames stand for Friendship, Love, Affair, Marriage, Enmity and Sisterhood.
 
-Introduction goes here.
+Installation
+=======
+sudo gem install flames
 
+Usage
+=======
+Flames.compute("<your_name>", "<your_crushs_name>")
 
 Example
 =======
+require "rubygems"
+require "flames"
+Flames.compute("Brad Pit", "Angelina")
 
-Example goes here.
+This will result in "Marriage"!!!
+Have fun playing!!!
 
 
-Copyright (c) 2010 [name of plugin creator], released under the MIT license
+Copyright (c) 2010 [bvsatyaram], released under the MIT license
