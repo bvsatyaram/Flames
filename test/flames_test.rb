@@ -11,7 +11,7 @@ class FlamesTest < Test::Unit::TestCase
   end
 
   def test_flames_compute
-    assert_equal "Ancestors", Flames.compute("satyaram", "soujanya")
+    assert_equal "Affair", Flames.compute("satyaram", "soujanya")
   end
 
 end
