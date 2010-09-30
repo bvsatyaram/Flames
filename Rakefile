@@ -34,12 +34,12 @@ PKG_FILES = FileList[
 
 spec = Gem::Specification.new do |s|
   s.name = "flames"
-  s.version = "0.0.1"
+  s.version = "1.0.0"
   s.author = "B V Satyaram"
   s.email = "bvsatyaram@gmail.com"
   s.homepage = "http://bvsatyaram.com/"
   s.platform = Gem::Platform::RUBY
-  s.summary = "The FLAMES game"
+  s.summary = "The FLAMES love game"
   s.files = PKG_FILES.to_a
   s.require_path = "lib"
   s.has_rdoc = false
