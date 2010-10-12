@@ -1,13 +1,17 @@
 Flames
 =======
 Do you have a secret crush??
-Want to know the scope of a crush love or a serious relationship??
-The Flames Test is the right tool for you.
-Flames stand for Friendship, Love, Affair, Marriage, Enmity and Sisterhood.
+Want to know the scope of your relationship with the crush??
+The Flames tool is the one you are looking for.
+Flames stands for Friendship, Love, Affair, Marriage, Enmity and Sisterhood. 
 
 Installation
 =======
 sudo gem install flames
+
+Demo
+=======
+http://flames.heroku.com/
 
 Usage
 =======
