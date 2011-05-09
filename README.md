@@ -19,7 +19,7 @@ Demo
 Usage
 -----
 
-    Flames.compute("`your_name`", "`your_crushs_name`")
+    Flames.compute(`your_name`, `your_crushs_name`)
 
 Example
 -------
